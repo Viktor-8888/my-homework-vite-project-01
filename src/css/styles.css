@@ -46,3 +46,76 @@ ol {
   height: 200px;
   object-fit: cover;
 }
+.feedback-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 296px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+label {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding: 8px;
+}
+input:hover {
+  border: 1px solid #000;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: none;
+}
+input:active {
+  border: 1px solid #808080;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+textarea {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 80px;
+  padding: 8px;
+}
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 95px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  outline: none;
+  border: none;
+}
+button:hover {
+  background-color: #6c8cff;
+}
