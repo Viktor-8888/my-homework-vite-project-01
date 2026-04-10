@@ -16,6 +16,7 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+@import url('./timer.css');
 
 ul,
 ol {
@@ -113,7 +114,6 @@ button {
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
-  outline: none;
   border: none;
 }
 button:hover {

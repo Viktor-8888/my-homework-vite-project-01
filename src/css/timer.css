@@ -1,0 +1,99 @@
+/* Timer */
+#datetime-picker {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 36px 8px 32px 156px;
+  width: 272px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+/* .my-datepicker {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 36px 8px 32px 156px;
+  width: 272px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+} */
+button[data-start] {
+  display: inline-block;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+}
+button[data-start]:hover {
+  background-color: #6c8cff;
+}
+button[data-start]:disabled {
+  background-color: #cfcfcf;
+  color: #989898;
+}
+.timer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 24px;
+  width: 346px;
+  height: 72px;
+  margin-left: 156px;
+}
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.value {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.label {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  color: #2e2f42;
+  text-transform: uppercase;
+}
+/* .iziToast.timerIziToast {
+  width: 450px;
+  height: 100px;
+  margin-top: 40px;
+  margin-left: 250px;
+  background-color: red;
+  border-radius: 25px;
+  border: 2px solid yellow;
+} */
+.iziToast.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 353px;
+  height: 64px;
+  margin: auto;
+}
+.iziToast.box .iziToast-close {
+  background-image: url(../img/x-lg.png);
+  background-size: 16px;
+}
