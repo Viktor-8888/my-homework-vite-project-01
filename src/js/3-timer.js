@@ -46,7 +46,7 @@ const options = {
         class: 'box',
         title: 'Error',
         message: 'Please choose a date in the future',
-        position: 'topCenter',
+        position: 'topLeft',
         messageColor: 'white',
         messageSize: '16px',
         backgroundColor: '#ef4040',

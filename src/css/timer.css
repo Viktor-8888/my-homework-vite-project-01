@@ -96,7 +96,9 @@ button[data-start]:disabled {
   justify-content: center;
   width: 353px;
   height: 64px;
-  margin: auto;
+  /* margin: auto; */
+  margin-left: 150px;
+  margin-top: 32px;
 }
 .iziToast.box .iziToast-close {
   background-image: url(../img/x-lg.png);
