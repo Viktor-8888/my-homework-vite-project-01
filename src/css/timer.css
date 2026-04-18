@@ -17,19 +17,6 @@
   letter-spacing: 0.04em;
   color: #2e2f42;
 }
-/* .my-datepicker {
-  display: inline-block;
-  padding: 8px 16px;
-  margin: 36px 8px 32px 156px;
-  width: 272px;
-  height: 40px;
-  box-sizing: border-box;
-  border: 1px solid #808080;
-  border-radius: 4px;
-  line-height: 150%;
-  letter-spacing: 0.04em;
-  color: #2e2f42;
-} */
 button[data-start] {
   display: inline-block;
   border-radius: 8px;
@@ -81,22 +68,12 @@ button[data-start]:disabled {
   color: #2e2f42;
   text-transform: uppercase;
 }
-/* .iziToast.timerIziToast {
-  width: 450px;
-  height: 100px;
-  margin-top: 40px;
-  margin-left: 250px;
-  background-color: red;
-  border-radius: 25px;
-  border: 2px solid yellow;
-} */
 .iziToast.box {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 353px;
   height: 64px;
-  /* margin: auto; */
   margin-left: 150px;
   margin-top: 32px;
 }

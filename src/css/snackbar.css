@@ -1,0 +1,108 @@
+@import url('./container.css');
+
+@import url('./timer.css');
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+label {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+input {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 8px 4px 8px 16px;
+  box-sizing: border-box;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  outline: none;
+}
+input:hover {
+  border: 1px solid #000;
+}
+input:focus {
+  border: 1px solid #4e75ff;
+}
+fieldset {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 360px;
+  height: 78px;
+  margin: 0 0 24px 0;
+  padding: 24px 24px 8px 28px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: solid 1px #808080;
+}
+fieldset:hover {
+  border: solid 1px #000000;
+}
+fieldset label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 4px;
+  width: 104px;
+  height: 32px;
+  margin: 0 48px 0 0;
+  padding: 0;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+fieldset input {
+  border: 1px solid #757575;
+  border-radius: 14px;
+  width: 20px;
+  height: 20px;
+}
+form button {
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  flex-direction: row;
+  gap: 10px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+}
+form button:hover {
+  background-color: #6c8cff;
+}
+.iziToast.snackbar-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 360px;
+  height: 64px;
+  margin-left: 150px;
+  margin-top: 32px;
+}
+.iziToast.snackbar-box .iziToast-close {
+  background-image: url();
+  background-size: 16px;
+}
+/* Виправляє центрування на сторінці в браузері (в класі біблиотеці
+.iziToast-wrapper-center .iziToast-capsule {
+  width: fit-content;
+} */
