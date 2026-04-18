@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Promise generator</title>
+    <script type="module" crossorigin src="/my-homework-vite-project-01/4-snackbar.js"></script>
+    <link rel="modulepreload" crossorigin href="/my-homework-vite-project-01/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="/my-homework-vite-project-01/assets/vendor-CDG6XfPK.js">
+    <link rel="modulepreload" crossorigin href="/my-homework-vite-project-01/assets/bi_x-octagon-T3Oj8RPW.js">
+    <link rel="stylesheet" crossorigin href="/my-homework-vite-project-01/assets/vendor-jineGCZD.css">
+    <link rel="stylesheet" crossorigin href="/my-homework-vite-project-01/assets/4-snackbar-aW-K2_Wf.css">
+  </head>
+  <body>
+    <div class="container timer-wrap">
+      <a class="back-link" href="./index.html">Go back</a>
+      <h1 class="main-title">Promise generator</h1>
+      <form class="form">
+        <label>
+          Delay (ms)
+          <input type="number" name="delay" required />
+        </label>
+
+        <fieldset>
+          <legend>State</legend>
+          <label>
+            <input type="radio" name="state" value="fulfilled" required />
+            Fulfilled
+          </label>
+          <label>
+            <input type="radio" name="state" value="rejected" required />
+            Rejected
+          </label>
+        </fieldset>
+
+        <button type="submit">Create notification</button>
+      </form>
+    </div>
+
+  </body>
+</html>
