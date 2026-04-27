@@ -81,10 +81,3 @@ button[data-start]:disabled {
   background-image: url(../img/x-lg.png);
   background-size: 16px;
 }
-.container.timer-wrap {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 8px;
-}

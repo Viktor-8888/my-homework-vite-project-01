@@ -1,6 +1,9 @@
 @import url('./container.css');
+@import url('./back-link.css');
+@import url('./animations.css');
+@import url('./reset.css');
+@import url('./base.css');
 
-@import url('./timer.css');
 .form {
   display: flex;
   align-items: center;
@@ -102,7 +105,3 @@ form button:hover {
   background-image: url();
   background-size: 16px;
 }
-/* Виправляє центрування на сторінці в браузері (в класі біблиотеці
-.iziToast-wrapper-center .iziToast-capsule {
-  width: fit-content;
-} */

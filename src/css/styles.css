@@ -16,7 +16,6 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
-@import url('./timer.css');
 
 ul,
 ol {
@@ -47,6 +46,7 @@ ol {
   height: 200px;
   object-fit: cover;
 }
+
 .feedback-form {
   display: flex;
   align-items: flex-start;
