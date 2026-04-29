@@ -26,8 +26,8 @@ function handleSubmit(event) {
 
   getImagesByQuery(query)
     .then(response => {
+      hideLoader();
       if (response.data.hits.length === 0) {
-        hideLoader();
         iziToast.error({
           iconUrl: imgErrorIcon,
           title: 'Error',
@@ -41,7 +41,6 @@ function handleSubmit(event) {
           titleColor: '#fff',
         });
       } else {
-        hideLoader();
         createGallery(response.data.hits);
       }
     })
